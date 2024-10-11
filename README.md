@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto é um conversor de moedas que utiliza uma API para obter as taxas de câmbio em tempo real.
+Este projeto é um conversor de moedas do programa ONE - Oracle Next Education em parceria com a Alura, que utiliza uma API para obter as taxas de câmbio em tempo real.
 
 ## Funcionalidades
 
