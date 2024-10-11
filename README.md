@@ -21,3 +21,22 @@ Este projeto é um conversor de moedas que utiliza uma API para obter as taxas d
    ```bash
    git clone https://github.com/giogsilva/CHALLENGE-BACKEND-ONE---CONVERSOR-DE-MOEDAS-.git
    
+2. Navegue até o diretório do projeto
+    ```bash
+   cd ConversorMoedas
+
+3. Compile o projeto:
+   ```bash
+   mvn clean install
+   
+4. Execute o programa:
+    ```bash
+    mvn exec:java -Dexec.mainClass="com.conversorDeMoedas.Main"
+
+## Contribuição
+Se você deseja contribuir, fique à vontade para abrir um pull request!
+
+## Licença
+Este projeto está licenciado sob a Licença MIT.
+
+   
