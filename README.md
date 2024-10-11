@@ -37,6 +37,7 @@ Este projeto é um conversor de moedas do programa ONE - Oracle Next Education e
 Se você deseja contribuir, fique à vontade para abrir um pull request!
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+
 
    
