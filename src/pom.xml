@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Início do arquivo POM (Project Object Model), que define a estrutura e as dependências do projeto Maven -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!-- Definindo a versão do modelo POM -->
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Definições de identificação do projeto -->
-    <groupId>org.example</groupId> <!-- Identifica o grupo do projeto -->
-    <artifactId>java-maven-intellij</artifactId> <!-- Identifica o nome do artefato (nome do projeto) -->
-    <version>1.0-SNAPSHOT</version> <!-- Versão do projeto. "SNAPSHOT" indica que está em desenvolvimento -->
+    <groupId>com.conversorDeMoedas</groupId> <!-- Altere conforme necessário -->
+    <artifactId>conversor-moedas</artifactId> <!-- Altere conforme necessário -->
+    <version>1.0-SNAPSHOT</version>
 
-    <!-- Propriedades adicionais para o compilador Maven -->
     <properties>
-        <maven.compiler.source>21</maven.compiler.source> <!-- Define a versão da linguagem Java utilizada no projeto -->
-        <maven.compiler.target>21</maven.compiler.target> <!-- Define a versão do bytecode gerado pelo compilador -->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- Define o encoding do projeto como UTF-8 -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- Opcional -->
     </properties>
 
-    <!-- Dependências externas utilizadas pelo projeto -->
     <dependencies>
-        <!-- HTTP Client para fazer requisições -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.13</version>
         </dependency>
-        <!-- Bibliotecas Jackson para processamento de JSON -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -44,13 +37,12 @@
         </dependency>
     </dependencies>
 
-    <!-- Plugins do Maven -->
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version> <!-- Verifique a versão mais recente -->
+                <version>3.10.1</version>
                 <configuration>
                     <source>21</source>
                     <target>21</target>
